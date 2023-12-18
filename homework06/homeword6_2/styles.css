@@ -1,0 +1,52 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    outline: 1px solid lightgrey;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .App h2 {
+    margin: 0px auto 15px;
+  }
+  .App > .header > button {
+    margin-left: 20px;
+  }
+  .bxl-react {
+    font-size: 5rem;
+    color: deeppink;
+  }
+
+  input {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+    width: 5ch;
+    text-align: right;
+  }
+
+  .Counter {
+    border: 1px dashed lime;
+  }
+
+  .counter-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .counter-header > * {
+    flex-grow: 1;
+  }
+  .counter-header .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .counter-header .right > * {
+    margin: 0 5px;
+    border: 1px dashed lightgray;
+  }
+
+  .Counter > button {
+    padding: 2px 10px;
+    margin: 0 2px 5px;
+  }
